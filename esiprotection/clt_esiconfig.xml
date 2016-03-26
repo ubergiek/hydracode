@@ -1,0 +1,17 @@
+<esiprotection>
+    <rpsystem name='clt-rp' />
+    <vnxsystem name='clt-vnx' />
+    <rp_consistencygroup name='CLT_TEST'>
+    <roletype>LocalCopy</roletype>
+        <host name='CLT-ESI108-P'>
+            <ipaddress>10.2.16.48</ipaddress>
+            <initiator>20:00:00:25:B5:01:00:7F:20:00:00:25:B5:12:AA:EC</initiator>
+            <lun name='CLT_DST_01' value='17' />
+        </host>
+        <host name='CLT-ESI105-P'>
+            <ipaddress>10.2.16.45</ipaddress>
+            <initiator>20:00:00:25:B5:01:00:CF:20:00:00:25:B5:12:BB:6D</initiator>
+            <lun name='CLT_DST_01' value='17' />
+        </host>
+    </rp_consistencygroup>
+</esiprotection>
