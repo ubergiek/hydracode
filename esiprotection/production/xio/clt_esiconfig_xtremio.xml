@@ -1,0 +1,6 @@
+﻿<esiprotection>
+    <rpsystem name='clt-rp' />
+    <storagesystem name='clt-dr-xio-bbt-xio-20TB' type='xtremio' />
+    <xtremio_consistencygroup name='RP_SiteUID(0x68ccad3173754fa4)_512452647_0' />
+    <rp_consistencygroup name='coty_cg' />
+</esiprotection>
