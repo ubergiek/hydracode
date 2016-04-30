@@ -1,0 +1,21 @@
+﻿<esiprotection>
+    <rpsystem name='clt-rp' />
+    <vnxsystem name='clt-vnx' />
+    <rp_consistencygroup name='COTY_TEST'>
+    <roletype>LocalCopy</roletype>
+        <host name='CLT-ESI108-P'>
+            <ipaddress>10.2.16.48</ipaddress>
+            <initiator>20:00:00:25:B5:01:00:7F:20:00:00:25:B5:12:AA:EC</initiator>
+            <initiator>20:00:00:25:B5:01:00:7F:20:00:00:25:B5:12:BB:EC</initiator>
+            <lun name='COTY_DST_01' value='17' />
+            <lun name='COTY_DST_02' value='18' />
+        </host>
+        <host name='CLT-ESI105-P'>
+            <ipaddress>10.2.16.45</ipaddress>
+            <initiator>20:00:00:25:B5:01:00:CF:20:00:00:25:B5:12:BB:6D</initiator>
+            <initiator>20:00:00:25:B5:01:00:CF:20:00:00:25:B5:12:AA:6D</initiator>
+            <lun name='COTY_DST_03' value='20' />
+            <lun name='COTY_DST_04' value='21' />
+        </host>
+    </rp_consistencygroup>
+</esiprotection>
